@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#14213D">
+    <meta name="description" content="Corte de cabelo, barba e sobrancelha com hora marcada no Centro de Blumenau. Agende online.">
+    <title>Barbearia Elite | Corte e barba com hora marcada em Blumenau</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="topo">
+        <div class="topo-interno">
+            <a href="#inicio" class="marca">
+                <span class="marca-poste" aria-hidden="true"></span>
+                Barbearia Elite
+            </a>
+
+            <button class="menu-botao" id="menuBotao" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+
+            <nav class="menu" id="menu" aria-label="Principal">
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#agendar" class="menu-cta">Agendar horário</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- INÍCIO -->
+        <section class="secao inicio" id="inicio">
+            <div class="conteudo inicio-grade">
+
+                <div class="inicio-texto">
+                    <h1>Cabelo e barba do jeito que você pediu.</h1>
+                    <p class="lead">Atendimento só com hora marcada, de segunda a sábado, no Centro de Blumenau. Escolha o serviço, o dia e o horário em um minuto.</p>
+
+                    <div class="acoes">
+                        <a href="#agendar" class="botao botao-vermelho">Agendar horário</a>
+                        <a href="#servicos" class="link-simples">Ver preços</a>
+                    </div>
+
+                    <p class="status" id="status" role="status">Segunda a sábado, das 9h às 20h</p>
+                </div>
+
+                <div class="poste" aria-hidden="true">
+                    <div class="poste-topo"></div>
+                    <div class="poste-corpo"></div>
+                    <div class="poste-base"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section class="secao servicos" id="servicos">
+            <div class="conteudo servicos-grade">
+
+                <div>
+                    <h2>Serviços e preços</h2>
+                    <p class="nota">Pagamento em Pix, cartão ou dinheiro.</p>
+                </div>
+
+                <ul class="tabela">
+                    <li>
+                        <div class="linha">
+                            <h3>Corte de cabelo</h3>
+                            <span class="pontos" aria-hidden="true"></span>
+                            <span class="preco">R$ 40,00</span>
+                        </div>
+                        <p>Tesoura ou máquina, com acabamento na navalha no pescoço e nas laterais.</p>
+                    </li>
+
+                    <li>
+                        <div class="linha">
+                            <h3>Barba</h3>
+                            <span class="pontos" aria-hidden="true"></span>
+                            <span class="preco">R$ 30,00</span>
+                        </div>
+                        <p>Modelagem na navalha com toalha quente e hidratação no final.</p>
+                    </li>
+
+                    <li>
+                        <div class="linha">
+                            <h3>Corte + barba</h3>
+                            <span class="pontos" aria-hidden="true"></span>
+                            <span class="preco">R$ 60,00</span>
+                        </div>
+                        <p>Os dois serviços no mesmo horário, com R$ 10 de desconto sobre o valor separado.</p>
+                    </li>
+
+                    <li>
+                        <div class="linha">
+                            <h3>Sobrancelha</h3>
+                            <span class="pontos" aria-hidden="true"></span>
+                            <span class="preco">R$ 15,00</span>
+                        </div>
+                        <p>Limpeza e desenho na navalha, sem exagero.</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section class="secao sobre" id="sobre">
+            <div class="conteudo sobre-grade">
+
+                <figure class="sobre-foto">
+                    <img src="https://images.pexels.com/photos/7697648/pexels-photo-7697648.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Barbeiro finalizando um corte de cabelo" loading="lazy">
+                    <div class="xadrez" aria-hidden="true"></div>
+                </figure>
+
+                <div class="sobre-texto">
+                    <h2>Aqui você tem hora marcada e não espera.</h2>
+                    <p>Somos uma barbearia de bairro no Centro de Blumenau. Cada atendimento tem o tempo reservado, então o barbeiro não corre e você sai com o corte que pediu.</p>
+
+                    <ul class="fatos">
+                        <li>Atendimento somente com hora marcada</li>
+                        <li>Toalha quente e navalha em toda barba</li>
+                        <li>Ambiente climatizado</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section class="secao galeria" id="galeria">
+            <div class="conteudo">
+                <h2>Galeria</h2>
+
+                <div class="faixa" tabindex="0" role="region" aria-label="Galeria de fotos, role para o lado para ver mais">
+                    <img src="https://images.pexels.com/photos/7697226/pexels-photo-7697226.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Barbeiro cortando o cabelo de um cliente" loading="lazy">
+                    <img src="https://images.pexels.com/photos/7697229/pexels-photo-7697229.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Corte de cabelo masculino em andamento" loading="lazy">
+                    <img src="https://images.pexels.com/photos/7697222/pexels-photo-7697222.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Barbeiro aparando a barba de um cliente" loading="lazy">
+                    <img src="https://images.pexels.com/photos/7697219/pexels-photo-7697219.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Detalhe de um corte de cabelo masculino" loading="lazy">
+                    <img src="https://images.pexels.com/photos/7697644/pexels-photo-7697644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Barbeiro trabalhando na barbearia" loading="lazy">
+                    <img src="https://images.pexels.com/photos/7697287/pexels-photo-7697287.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cliente na cadeira de barbeiro" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section class="secao depoimentos" id="depoimentos">
+            <div class="conteudo">
+                <h2>O que os clientes dizem</h2>
+
+                <div class="comandas">
+                    <figure class="comanda">
+                        <blockquote>
+                            <p>Marquei pelo site, cheguei na hora e já fui atendido. Saí com o corte que eu pedi.</p>
+                        </blockquote>
+                        <figcaption>
+                            <span>João</span>
+                            <span class="servico-feito">Corte de cabelo</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="comanda">
+                        <blockquote>
+                            <p>A toalha quente na barba faz diferença. Voltei todo mês desde que conheci.</p>
+                        </blockquote>
+                        <figcaption>
+                            <span>Carlos</span>
+                            <span class="servico-feito">Barba</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="comanda">
+                        <blockquote>
+                            <p>Atendimento sem pressa e o horário marcado é respeitado.</p>
+                        </blockquote>
+                        <figcaption>
+                            <span>Pedro</span>
+                            <span class="servico-feito">Corte + barba</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- AGENDAMENTO -->
+        <section class="secao agendar" id="agendar">
+            <div class="conteudo agendar-grade">
+
+                <div class="agendar-principal">
+                    <h2>Agende seu horário</h2>
+                    <p class="lead">Escolha o serviço, o dia e o horário. No final, você envia o pedido pelo WhatsApp e a barbearia confirma.</p>
+
+                    <form class="agenda" id="agenda" novalidate>
+
+                        <fieldset>
+                            <legend><span class="passo">1</span>Serviço</legend>
+                            <div class="opcoes">
+                                <input class="opcao-input" type="radio" name="servico" id="servico-corte" value="Corte de cabelo">
+                                <label class="opcao" for="servico-corte"><span>Corte de cabelo</span><span>R$ 40</span></label>
+
+                                <input class="opcao-input" type="radio" name="servico" id="servico-barba" value="Barba">
+                                <label class="opcao" for="servico-barba"><span>Barba</span><span>R$ 30</span></label>
+
+                                <input class="opcao-input" type="radio" name="servico" id="servico-combo" value="Corte + barba">
+                                <label class="opcao" for="servico-combo"><span>Corte + barba</span><span>R$ 60</span></label>
+
+                                <input class="opcao-input" type="radio" name="servico" id="servico-sobrancelha" value="Sobrancelha">
+                                <label class="opcao" for="servico-sobrancelha"><span>Sobrancelha</span><span>R$ 15</span></label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span class="passo">2</span>Dia</legend>
+                            <input class="entrada entrada-dia" type="date" id="dia" name="dia" aria-label="Dia do atendimento">
+                            <p class="aviso" id="avisoDia"></p>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span class="passo">3</span>Horário</legend>
+                            <div class="horarios" id="horarios" role="group" aria-label="Horários disponíveis">
+                                <p class="vazio">Escolha um dia para ver os horários.</p>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span class="passo">4</span>Seus dados</legend>
+                            <div class="dados">
+                                <label class="campo" for="nome">
+                                    <span>Nome</span>
+                                    <input class="entrada" type="text" id="nome" name="nome" autocomplete="name">
+                                </label>
+
+                                <label class="campo" for="telefone">
+                                    <span>Telefone com DDD</span>
+                                    <input class="entrada" type="tel" id="telefone" name="telefone" autocomplete="tel" inputmode="tel" placeholder="(47) 99999-9999">
+                                </label>
+                            </div>
+                        </fieldset>
+
+                        <p class="erro" id="erro" role="alert"></p>
+
+                        <button type="submit" class="botao botao-vermelho">Continuar</button>
+                    </form>
+
+                    <div class="confirmacao" id="confirmacao" hidden>
+                        <h3 id="confirmacaoTitulo" tabindex="-1">Falta só enviar o pedido</h3>
+                        <p>Seu horário só fica reservado depois que a barbearia confirmar. Envie o pedido pelo WhatsApp:</p>
+                        <dl class="resumo" id="resumo"></dl>
+                        <div class="acoes">
+                            <a class="botao botao-vermelho" id="linkWhats" href="#" target="_blank" rel="noopener">Enviar pelo WhatsApp</a>
+                            <button class="botao botao-borda" id="novoAgendamento" type="button">Fazer outro agendamento</button>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="info">
+                    <h3>Quando e onde</h3>
+                    <dl>
+                        <div>
+                            <dt>Horário de atendimento</dt>
+                            <dd>Segunda a sábado, das 9h às 20h. Domingo fechado.</dd>
+                        </div>
+                        <div>
+                            <dt>Endereço</dt>
+                            <dd>Rua Exemplo, 123, Centro, Blumenau/SC</dd>
+                        </div>
+                        <div>
+                            <dt>WhatsApp</dt>
+                            <dd><a href="https://wa.me/5547999999999" target="_blank" rel="noopener">(47) 99999-9999</a></dd>
+                        </div>
+                    </dl>
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="xadrez-faixa" aria-hidden="true"></div>
+
+        <div class="rodape-conteudo">
+            <div>
+                <p class="rodape-nome">Barbearia Elite</p>
+                <p>Rua Exemplo, 123, Centro, Blumenau/SC</p>
+                <p>Segunda a sábado, das 9h às 20h</p>
+            </div>
+
+            <div class="rodape-links">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://wa.me/5547999999999" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+        </div>
+
+        <p class="rodape-direitos">© <span id="ano">2026</span> Barbearia Elite</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
