@@ -2,7 +2,7 @@
 
 Uma aplicação web moderna, elegante e responsiva projetada sob medida para a **Barbearia de Elite**. O projeto combina uma estética premium em *Dark Mode* com detalhes em tom dourado/bronze, oferecendo aos clientes uma experiência diferenciada desde o primeiro acesso com agendamento online de horários, tabela de serviços, apresentação dos profissionais e clube VIP.
 
-![Barbearia de Elite Banner](https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1200&q=80)
+![Barbearia de Elite Banner](https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1200&q=80)
 
 ---
 
